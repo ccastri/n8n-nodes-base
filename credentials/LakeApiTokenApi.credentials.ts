@@ -8,9 +8,9 @@ import type {
 export class LakeApiTokenApi implements ICredentialType {
 	name = 'lakeApiTokenApi';
 
-	displayName = 'Lake API Token';
+	displayName = 'Lake API Token API';
 
-	documentationUrl = 'lake';
+	documentationUrl = 'https://docs.nocodb.com';
 
 	properties: INodeProperties[] = [
 		{

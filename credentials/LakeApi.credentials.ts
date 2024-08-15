@@ -3,9 +3,9 @@ import type { IAuthenticateGeneric, ICredentialType, INodeProperties } from 'n8n
 export class LakeApi implements ICredentialType {
 	name = 'lakeApi';
 
-	displayName = 'Lake';
+	displayName = 'Lake API';
 
-	documentationUrl = 'lake';
+	documentationUrl = 'https://docs.nocodb.com';
 
 	properties: INodeProperties[] = [
 		{

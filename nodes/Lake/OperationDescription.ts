@@ -8,7 +8,7 @@ export const operationFields: INodeProperties[] = [
 		displayName: 'Workspace Name or ID',
 		name: 'workspaceId',
 		type: 'options',
-		default: 'none',
+		default: '',
 		displayOptions: {
 			show: {
 				version: [3],
@@ -246,7 +246,6 @@ export const operationFields: INodeProperties[] = [
 		},
 		typeOptions: {
 			minValue: 1,
-			maxValue: 100,
 		},
 		default: 50,
 		description: 'Max number of results to return',
