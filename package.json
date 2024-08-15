@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/beedatasas/n8n-nodes-base.git"
+    "url": "https://github.com/ccastri/n8n-nodes-base.git"
   },
   "engines": {
     "node": ">=18.10",
