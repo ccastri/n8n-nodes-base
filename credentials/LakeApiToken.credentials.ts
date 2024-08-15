@@ -5,12 +5,12 @@ import type {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class LakeApiToken implements ICredentialType {
-	name = 'lakeApiToken';
+export class LakeApiTokenApi implements ICredentialType {
+	name = 'lakeApiTokenApi';
 
 	displayName = 'Lake API Token';
 
-	documentationUrl = 'https://docs.nocodb.com';
+	documentationUrl = 'lake';
 
 	properties: INodeProperties[] = [
 		{

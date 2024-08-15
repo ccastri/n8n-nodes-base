@@ -1,11 +1,11 @@
 import type { IAuthenticateGeneric, ICredentialType, INodeProperties } from 'n8n-workflow';
 
-export class Lake implements ICredentialType {
-	name = 'lake';
+export class LakeApi implements ICredentialType {
+	name = 'lakeApi';
 
 	displayName = 'Lake';
 
-	documentationUrl = 'https://docs.nocodb.com';
+	documentationUrl = 'lake';
 
 	properties: INodeProperties[] = [
 		{

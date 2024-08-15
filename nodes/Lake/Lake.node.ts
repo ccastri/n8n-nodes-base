@@ -31,7 +31,7 @@ export class Lake implements INodeType {
 		outputs: ['main'],
 		credentials: [
 			{
-				name: 'lake',
+				name: 'lakeApi',
 				required: true,
 				displayOptions: {
 					show: {
@@ -40,11 +40,11 @@ export class Lake implements INodeType {
 				},
 			},
 			{
-				name: 'lakeApiToken',
+				name: 'lakeApiTokenApi',
 				required: true,
 				displayOptions: {
 					show: {
-						authentication: ['lakeApiToken'],
+						authentication: ['lakeApiTokenApi'],
 					},
 				},
 			},
@@ -57,7 +57,7 @@ export class Lake implements INodeType {
 				options: [
 					{
 						name: 'API Token',
-						value: 'lakeApiToken',
+						value: 'lakeApiTokenApi',
 					},
 					{
 						name: 'User Token',
