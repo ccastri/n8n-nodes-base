@@ -1,0 +1,19 @@
+{
+	"node": "n8n-nodes-base.lake",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": ""
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": ""
+			}
+		],
+		"generic": []
+	}
+}
